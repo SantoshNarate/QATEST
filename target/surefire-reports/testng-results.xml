@@ -2,36 +2,36 @@
 <testng-results skipped="0" failed="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="50" started-at="2018-12-26T13:44:44Z" finished-at="2018-12-26T13:44:44Z">
+  <suite name="Suite" duration-ms="60" started-at="2018-12-28T09:54:34Z" finished-at="2018-12-28T09:54:34Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="50" started-at="2018-12-26T13:44:44Z" finished-at="2018-12-26T13:44:44Z">
+    <test name="Test" duration-ms="60" started-at="2018-12-28T09:54:34Z" finished-at="2018-12-28T09:54:34Z">
       <class name="testpackage.Mavenjava.AppiumTest">
-        <test-method status="PASS" signature="NativeAppAndroid()[pri:0, instance:testpackage.Mavenjava.AppiumTest@a097cc]" name="NativeAppAndroid" duration-ms="17" started-at="2018-12-26T19:14:44Z" finished-at="2018-12-26T19:14:44Z">
+        <test-method status="PASS" signature="NativeAppAndroid()[pri:0, instance:testpackage.Mavenjava.AppiumTest@f71333]" name="NativeAppAndroid" duration-ms="22" started-at="2018-12-28T15:24:34Z" finished-at="2018-12-28T15:24:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- NativeAppAndroid -->
-        <test-method status="PASS" signature="iOSApp()[pri:0, instance:testpackage.Mavenjava.AppiumTest@a097cc]" name="iOSApp" duration-ms="0" started-at="2018-12-26T19:14:44Z" finished-at="2018-12-26T19:14:44Z">
+        <test-method status="PASS" signature="iOSApp()[pri:0, instance:testpackage.Mavenjava.AppiumTest@f71333]" name="iOSApp" duration-ms="0" started-at="2018-12-28T15:24:34Z" finished-at="2018-12-28T15:24:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- iOSApp -->
       </class> <!-- testpackage.Mavenjava.AppiumTest -->
       <class name="testpackage.Mavenjava.SeleniumTest">
-        <test-method status="PASS" signature="BrowserAutomation()[pri:0, instance:testpackage.Mavenjava.SeleniumTest@13f5a29]" name="BrowserAutomation" duration-ms="0" started-at="2018-12-26T19:14:44Z" finished-at="2018-12-26T19:14:44Z">
+        <test-method status="PASS" signature="BrowserAutomation()[pri:0, instance:testpackage.Mavenjava.SeleniumTest@16e8792]" name="BrowserAutomation" duration-ms="0" started-at="2018-12-28T15:24:34Z" finished-at="2018-12-28T15:24:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BrowserAutomation -->
-        <test-method status="PASS" signature="elementsUI()[pri:0, instance:testpackage.Mavenjava.SeleniumTest@13f5a29]" name="elementsUI" duration-ms="0" started-at="2018-12-26T19:14:44Z" finished-at="2018-12-26T19:14:44Z">
+        <test-method status="PASS" signature="elementsUI()[pri:0, instance:testpackage.Mavenjava.SeleniumTest@16e8792]" name="elementsUI" duration-ms="0" started-at="2018-12-28T15:24:34Z" finished-at="2018-12-28T15:24:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- elementsUI -->
       </class> <!-- testpackage.Mavenjava.SeleniumTest -->
       <class name="testpackage.Mavenjava.RestAPITest">
-        <test-method status="PASS" signature="deleteTwitter()[pri:0, instance:testpackage.Mavenjava.RestAPITest@f67b76]" name="deleteTwitter" duration-ms="1" started-at="2018-12-26T19:14:44Z" finished-at="2018-12-26T19:14:44Z">
+        <test-method status="PASS" signature="deleteTwitter()[pri:0, instance:testpackage.Mavenjava.RestAPITest@1969fbe]" name="deleteTwitter" duration-ms="0" started-at="2018-12-28T15:24:34Z" finished-at="2018-12-28T15:24:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteTwitter -->
-        <test-method status="PASS" signature="postJira()[pri:0, instance:testpackage.Mavenjava.RestAPITest@f67b76]" name="postJira" duration-ms="0" started-at="2018-12-26T19:14:44Z" finished-at="2018-12-26T19:14:44Z">
+        <test-method status="PASS" signature="postJira()[pri:0, instance:testpackage.Mavenjava.RestAPITest@1969fbe]" name="postJira" duration-ms="0" started-at="2018-12-28T15:24:34Z" finished-at="2018-12-28T15:24:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postJira -->

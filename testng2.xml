@@ -4,6 +4,8 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="testpackage.Mavenjava.AppiumTest"/>
+      <class name="testpackage.Mavenjava.SeleniumTest"/>
+      <class name="testpackage.Mavenjava.RestAPITest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
