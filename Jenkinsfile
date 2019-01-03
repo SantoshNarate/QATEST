@@ -40,6 +40,7 @@ pipeline {
 	                     sh 'mvn test -PRegression'
 	             
 	              }
+	    }
 		    
 		    stage ('QA Email') {
 	              steps {
@@ -50,4 +51,3 @@ pipeline {
 	       }
 	  }
 	}
-}
