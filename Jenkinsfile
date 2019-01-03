@@ -41,13 +41,7 @@ pipeline {
 	             
 	              }
 		    
-            stage ('Email') {
-	              steps {
-	                     emailext body: 'This email to test Pipeline.', 
-				     subject: 'Email to test Pipeline - QA execution is completed', 
-				     to: 'kpise@searshc.com'
-	             
-	              }
+          
 	       }
 	  }
 	}
