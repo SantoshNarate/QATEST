@@ -14,6 +14,7 @@ pipeline {
 	      }
 	      post {
 	        always {
+			emailext body: 'Build phase completed !!!', subject: 'Build Completed', to: 'santosh.narate@gmail.com, kunalpise@gmail.com'
 	          junit "**/TEST-*.xml"
 	        }
 	       }
