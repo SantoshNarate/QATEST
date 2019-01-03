@@ -28,13 +28,16 @@ pipeline {
 	     }
 	     stage ('Deploy on QA Env') {
 	              steps {
-	                     echo 'Deploying on QA environment'
+	                     echo 'Smoke Test'
+	                     sh 'mvn test -PSmoke'
 	              }
 	       }
 	    stage ('QA Phase') {
 	              steps {
 	                     echo 'Testing on QA environment'
-	                     input ('Does the testing pass?')
+	                     echo 'Regression Test'
+	                     sh 'mvn test -PRegression'
+	             
 	              }
 	       }
 	  }
