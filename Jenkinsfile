@@ -13,12 +13,13 @@ pipeline {
 	        sh 'mvn clean install'
 		      script {
 			      def result = sh (script: "git log -1 | grep '.*\\[NM-\\].*'", returnStatus: true)
+			      echo 'Result of Grep'
 			      echo result
 		      }
 	      }
 	      post {
 	        always {
-			emailext body: 'Build phase completed !!!', subject: 'Build Completed', to: 'santosh.narate@gmail.com, kunalpise@gmail.com'
+			//emailext body: 'Build phase completed !!!', subject: 'Build Completed', to: 'santosh.narate@gmail.com, kunalpise@gmail.com'
 	          
 			junit "**/TEST-*.xml"
 	        }
