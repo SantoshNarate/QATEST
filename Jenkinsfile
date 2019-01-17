@@ -15,6 +15,7 @@ pipeline {
 			     result = sh (script: "git log -1 | grep '.*\\[NM-\\].*'", returnStatus: true)
 			      echo 'Result of Grep'
 			      echo result
+			      
 		      }
 	      }
 	      post {
